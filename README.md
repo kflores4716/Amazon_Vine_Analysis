@@ -20,6 +20,7 @@ Once we completed our Analysis, we found some interesting results. While our out
 
 ![paid_vine_count](https://user-images.githubusercontent.com/94764735/163274491-13dcbdb2-ea5f-4b3c-acb9-17d1531886d1.png)
 
+- The total number of Vine reviews was 334
 
 
 ##### Non-Vine Reviews
@@ -28,7 +29,7 @@ Once we completed our Analysis, we found some interesting results. While our out
 
 ![unpaid_vine_count](https://user-images.githubusercontent.com/94764735/163274562-b3e97e96-f340-418b-bd49-1266e44d4bbb.png)
 
-
+- The total number of Non-Vine reviews was 61,614
 
 
 ### Count of 5-star Reviews
@@ -37,12 +38,13 @@ Once we completed our Analysis, we found some interesting results. While our out
 
 ![paid_5star](https://user-images.githubusercontent.com/94764735/163274872-f1055222-a227-48a3-b337-6e93fb2c820e.png)
 
+- The number of 5-star Vine reviews was 139
 
 ##### Non-Vine Reviews
 
 ![unpaid_5star](https://user-images.githubusercontent.com/94764735/163274882-ee7470eb-6aa2-407b-881b-28d12a09744b.png)
 
-
+- The total number of 5-star Non-Vine reviews was 32,665
 
 
 ### Percentage of 5-star Reviews
@@ -51,12 +53,13 @@ Once we completed our Analysis, we found some interesting results. While our out
 
 ![paid_5star_percent](https://user-images.githubusercontent.com/94764735/163274986-d6472d3e-50f1-4a22-b9cd-c7c361a016f1.png)
 
+- The percentage of 5-star reviews amongst all Vine reviews was 41.62%
 
 ##### Non-Vine Reviews
 
 ![unpaid_5star_percent](https://user-images.githubusercontent.com/94764735/163275002-b302e2a9-904d-4e47-859e-bbc4f1c4bc86.png)
 
-
+- The percentage of 5-star reviews amongst all Non-Vine reviews was 53.02%
 
 
 
