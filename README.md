@@ -12,9 +12,9 @@ The goal of this analysis is to comb through some Amazon reviews that were writt
 
 Once we completed our Analysis, we found some interesting results. While our outcome can't really apply to ALL Amazon reviews (there are so many), it does offer guidance when considering a possibility of bias in the Amazon Vine program. The results are as follows:
 
-- **Count of Total Reviews**
+### Count of Total Reviews
 
-#### Vine Reviews
+##### Vine Reviews
 
 ![paid_vine_df](https://user-images.githubusercontent.com/94764735/163274427-42ae8ec2-125a-43e0-ba3c-c4050ff2b23b.png)
 
@@ -22,7 +22,7 @@ Once we completed our Analysis, we found some interesting results. While our out
 
 
 
-#### Non-Vine Reviews
+##### Non-Vine Reviews
 
 ![unpaid_vine_df](https://user-images.githubusercontent.com/94764735/163274546-90d2e33d-ce77-4556-a5db-1921509ace45.png)
 
@@ -31,28 +31,28 @@ Once we completed our Analysis, we found some interesting results. While our out
 
 
 
-- **Count of 5-star Reviews**
+### Count of 5-star Reviews
 
-#### Vine Reviews 
+##### Vine Reviews 
 
 ![paid_5star](https://user-images.githubusercontent.com/94764735/163274872-f1055222-a227-48a3-b337-6e93fb2c820e.png)
 
 
-#### Non-Vine Reviews
+##### Non-Vine Reviews
 
 ![unpaid_5star](https://user-images.githubusercontent.com/94764735/163274882-ee7470eb-6aa2-407b-881b-28d12a09744b.png)
 
 
 
 
-- **Percentage of 5-star Reviews**
+### Percentage of 5-star Reviews
 
-#### Vine Reviews
+##### Vine Reviews
 
 ![paid_5star_percent](https://user-images.githubusercontent.com/94764735/163274986-d6472d3e-50f1-4a22-b9cd-c7c361a016f1.png)
 
 
-#### Non-Vine Reviews
+##### Non-Vine Reviews
 
 ![unpaid_5star_percent](https://user-images.githubusercontent.com/94764735/163275002-b302e2a9-904d-4e47-859e-bbc4f1c4bc86.png)
 
