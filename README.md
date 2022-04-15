@@ -2,9 +2,6 @@
 
 ## Overview
 
-The goal of this analysis was to comb through some reviews written as part of the Amazon Vine program to see if there is evidence of bias. We started by pulling a data set containing Amazon review information and placing it in a dataframe. Next, we filtered that dataframe into a table to get rid of the metrics we didn't need for our analysis. Using that new table, we furthere filtered according to `total_votes` and percentage of `helpful_votes` to make sure that we didn't have any data that will skew our analysis or cause errors later on (no zero-value rows). After cleaning our data, we separated the Vine reviews into 'Paid' and 'Unpaid'
-
-
 The goal of this analysis is to comb through some Amazon reviews that were written as part of their Vine program and determine if there is any evidence of bias. As some reviewers were getting paid and others were not, we want to see if there is a noticeable difference between those two groups and how they reviewed their purchases. We pulled our data from a list of publicly available US Amazon reviews datasets and used `PySpark` and an `Amazon Web Services RDS` to complete the analysis. The data set we chose was the Sports data set, available at the following url: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Sports_v1_00.tsv.gz.
 
 
@@ -62,5 +59,10 @@ Once we completed our Analysis, we found some interesting results. While our out
 - The percentage of 5-star reviews amongst all Non-Vine reviews was 53.02%
 
 
+## Summary
+
+According to this data set, there does not seem to be a bias when comparing the paid reviews to non-paid reviews (at least not how we expected). The bias we are looking for is whether the paid reviewers are giving more 5-star reviews than those who aren't paid. It would make sense for them to give, on average, higher reviews if they are getting paid to do so. However, from our analysis we found that the 5-star review rate is actually lower for those paid reviewers. At 41.62%, the rate of 5-star reviews is almost 12% lower for paid reviewers than the 53.02% rate from the unpaid.
+
+It was a bit surprising to find that the paid reviewers on average gave lower reviews. If anything, we would think these percentages would be switched around. You would think that Amazon (or the third party vendor) would only be inclined to pay for good reviews in order to make the product more desirable, but clearly that might not always the case. Still, it would be a good idea to further analyze this data to get a better understanding of why this discrepancy exists. Looking at the split of these reviews, there are far more unpaid reviews than paid, so an immediate possibility that you might think of is that some of the unpaid reviews were written by bots or by people who never actually bought and used the product. Perhaps the vendor paid for more 5-star reviews on their own agenda, separate from the vine program. To get a better understanding of how likely this is, we could perform a similar analysis with the 1,2,3, and 4-star reviews to see how they split up. If the percentage of 3 to 4-star reviews are similar between paid and unpaid, perhaps the vendor actually did pay for fake reviews. Sometimes all a vendor needs is a little 1-star increase in average rating to sell more of their product, and paying for extra 5-star reviews (even if they're fabricated) can accomplish just that. 
 
 
